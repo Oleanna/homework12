@@ -1,0 +1,16 @@
+  487  ls
+  488  cd homework12
+  489  clear
+  490  git branch
+  491  git checkout -b feature
+  492  nano README.md
+  493  nano .gitignore
+  494  git status
+  495  git add .
+  496  git commit -m "Create README and edit .gitignore"
+  497  git push origin feature
+  498  git commit --amend -m "Edit commit with ammend README and .gitignore"
+  499  git status
+  500  git checkout main
+  501  git merge feature
+  502  history
